@@ -8,31 +8,31 @@ export default function EarningOpportunities() {
         {
             title: "Watching Videos",
             reward: "Up to $5/hour",
-            icon: <PlaySquare className="w-5 h-5 text-vertex-green" />,
+            icon: <PlaySquare className="w-5 h-5 text-getearnnext-green" />,
             delay: 0.1,
         },
         {
             title: "Following Accounts",
             reward: "$0.10 - $0.50/follow",
-            icon: <UserCheck className="w-5 h-5 text-vertex-green" />,
+            icon: <UserCheck className="w-5 h-5 text-getearnnext-green" />,
             delay: 0.2,
         },
         {
             title: "Liking Posts",
             reward: "$0.05 - $0.20/like",
-            icon: <Heart className="w-5 h-5 text-vertex-green" />,
+            icon: <Heart className="w-5 h-5 text-getearnnext-green" />,
             delay: 0.3,
         },
         {
             title: "Commenting",
             reward: "$0.20 - $1.00/comment",
-            icon: <MessageCircle className="w-5 h-5 text-vertex-green" />,
+            icon: <MessageCircle className="w-5 h-5 text-getearnnext-green" />,
             delay: 0.4,
         },
         {
             title: "Engaging with Brands",
             reward: "Bonus Rewards",
-            icon: <Share2 className="w-5 h-5 text-vertex-green" />,
+            icon: <Share2 className="w-5 h-5 text-getearnnext-green" />,
             delay: 0.5,
         },
     ];
@@ -42,15 +42,15 @@ export default function EarningOpportunities() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="flex flex-col lg:flex-row items-center gap-20">
                     <div className="lg:w-1/2 relative">
-                        <div className="absolute top-1/2 left-0 w-[400px] h-[400px] bg-vertex-green/10 blur-[120px] rounded-full pointer-events-none -translate-x-1/2 -translate-y-1/2" />
+                        <div className="absolute top-1/2 left-0 w-[400px] h-[400px] bg-getearnnext-green/10 blur-[120px] rounded-full pointer-events-none -translate-x-1/2 -translate-y-1/2" />
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-100px" }}
                             className="flex items-center gap-4 mb-6 relative z-10"
                         >
-                            <div className="h-px bg-vertex-green/40 flex-1 max-w-[40px]" />
-                            <span className="text-sm font-medium tracking-widest uppercase text-vertex-green">Opportunities</span>
+                            <div className="h-px bg-getearnnext-green/40 flex-1 max-w-[40px]" />
+                            <span className="text-sm font-medium tracking-widest uppercase text-getearnnext-green">Opportunities</span>
                         </motion.div>
 
                         <motion.h2
@@ -80,8 +80,8 @@ export default function EarningOpportunities() {
                             transition={{ delay: 0.2 }}
                             className="relative z-10"
                         >
-                            <button className="flex items-center gap-2 text-white font-medium hover:text-vertex-green transition-colors group">
-                                <span className="border-b border-white/30 group-hover:border-vertex-green/50 pb-1 transition-colors">See All Available Tasks</span>
+                            <button className="flex items-center gap-2 text-white font-medium hover:text-getearnnext-green transition-colors group">
+                                <span className="border-b border-white/30 group-hover:border-getearnnext-green/50 pb-1 transition-colors">See All Available Tasks</span>
                                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                             </button>
                         </motion.div>
@@ -99,14 +99,14 @@ export default function EarningOpportunities() {
                                     className={`glass-card p-6 flex items-center justify-between rounded-[24px] group ${index === opportunities.length - 1 ? 'sm:col-span-2' : ''}`}
                                 >
                                     <div className="flex items-center gap-4">
-                                        <div className="w-12 h-12 rounded-full border border-vertex-green/20 bg-vertex-green/5 flex items-center justify-center group-hover:bg-vertex-green/10 group-hover:scale-110 transition-all duration-300">
+                                        <div className="w-12 h-12 rounded-full border border-getearnnext-green/20 bg-getearnnext-green/5 flex items-center justify-center group-hover:bg-getearnnext-green/10 group-hover:scale-110 transition-all duration-300">
                                             {opp.icon}
                                         </div>
                                         <div>
                                             <h3 className="font-bold text-white mb-1 group-hover:text-white/90 transition-colors">
                                                 {opp.title}
                                             </h3>
-                                            <p className="text-sm text-vertex-green/80 font-medium">
+                                            <p className="text-sm text-getearnnext-green/80 font-medium">
                                                 {opp.reward}
                                             </p>
                                         </div>

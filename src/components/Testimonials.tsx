@@ -34,8 +34,8 @@ export default function Testimonials() {
                         viewport={{ once: true, margin: "-100px" }}
                         className="flex items-center gap-4 mb-6"
                     >
-                        <span className="text-sm font-medium tracking-widest uppercase text-vertex-green">Testimonials</span>
-                        <div className="h-px bg-vertex-green/40 flex-1 min-w-[40px]" />
+                        <span className="text-sm font-medium tracking-widest uppercase text-getearnnext-green">Testimonials</span>
+                        <div className="h-px bg-getearnnext-green/40 flex-1 min-w-[40px]" />
                     </motion.div>
 
                     <motion.h2
@@ -57,9 +57,9 @@ export default function Testimonials() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-50px" }}
                             transition={{ delay: index * 0.15, ease: [0.16, 1, 0.3, 1], duration: 0.8 }}
-                            className="glass p-10 rounded-[32px] border border-white/5 bg-white/[0.02] flex flex-col relative group hover:bg-white/[0.04] hover:border-vertex-green/30 transition-all duration-300 hover:shadow-[0_0_30px_rgba(74,222,128,0.05)]"
+                            className="glass p-10 rounded-[32px] border border-white/5 bg-white/[0.02] flex flex-col relative group hover:bg-white/[0.04] hover:border-getearnnext-green/30 transition-all duration-300 hover:shadow-[0_0_30px_rgba(74,222,128,0.05)]"
                         >
-                            <div className="text-4xl font-serif text-white/10 mb-6 leading-none group-hover:text-vertex-green/40 transition-colors duration-300">
+                            <div className="text-4xl font-serif text-white/10 mb-6 leading-none group-hover:text-getearnnext-green/40 transition-colors duration-300">
                                 "
                             </div>
 
@@ -68,7 +68,7 @@ export default function Testimonials() {
                             </p>
 
                             <div className="flex items-center gap-4">
-                                <div className="w-12 h-12 rounded-full border border-vertex-green/20 bg-vertex-green/5 flex items-center justify-center text-vertex-green font-serif text-sm">
+                                <div className="w-12 h-12 rounded-full border border-getearnnext-green/20 bg-getearnnext-green/5 flex items-center justify-center text-getearnnext-green font-serif text-sm">
                                     {testimonial.initials}
                                 </div>
                                 <div>

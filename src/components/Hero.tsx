@@ -35,7 +35,7 @@ export default function Hero() {
             </div>
 
             {/* Subtle Background Glows (Vertex Green) */}
-            <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-vertex-green/10 blur-[150px] rounded-full pointer-events-none" />
+            <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-getearnnext-green/10 blur-[150px] rounded-full pointer-events-none" />
             <div className="absolute bottom-1/3 right-1/4 translate-x-1/2 translate-y-1/2 w-[600px] h-[600px] bg-[#34D399]/10 blur-[150px] rounded-full pointer-events-none" />
 
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
@@ -46,7 +46,7 @@ export default function Hero() {
                     transition={{ duration: 0.5, ease: "easeOut" }}
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm mb-12"
                 >
-                    <span className="flex h-2 w-2 rounded-full bg-vertex-green animate-pulse" />
+                    <span className="flex h-2 w-2 rounded-full bg-getearnnext-green animate-pulse" />
                     <span className="text-xs font-medium tracking-wider text-white/80 uppercase">
                         Accepting new users for Q2
                     </span>
@@ -80,10 +80,10 @@ export default function Hero() {
                     transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
                     className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center"
                 >
-                    <button className="btn-shiny w-full sm:w-auto px-8 py-4 rounded-full bg-vertex-green text-background font-semibold text-lg hover:scale-105 transition-all active:scale-95 glow-primary">
+                    <button className="btn-shiny w-full sm:w-auto px-8 py-4 rounded-full bg-getearnnext-green text-background font-semibold text-lg hover:scale-105 transition-all active:scale-95 glow-primary">
                         Start Earning Now <span className="ml-1">→</span>
                     </button>
-                    <button className="w-full sm:w-auto px-8 py-4 rounded-full border border-white/20 text-white font-semibold text-lg hover:border-vertex-green hover:text-vertex-green transition-colors">
+                    <button className="w-full sm:w-auto px-8 py-4 rounded-full border border-white/20 text-white font-semibold text-lg hover:border-getearnnext-green hover:text-getearnnext-green transition-colors">
                         Book a Demo
                     </button>
                 </motion.div>

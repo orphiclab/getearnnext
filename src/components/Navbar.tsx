@@ -54,7 +54,7 @@ export default function Navbar() {
 
                 {/* CTA Button */}
                 <div className="hidden md:block">
-                    <button className="bg-white text-background px-6 py-2.5 rounded-full font-semibold text-sm hover:scale-105 active:scale-95 transition-all hover:bg-vertex-green hover:shadow-[0_0_20px_rgba(74,222,128,0.4)]">
+                    <button className="bg-white text-background px-6 py-2.5 rounded-full font-semibold text-sm hover:scale-105 active:scale-95 transition-all hover:bg-getearnnext-green hover:shadow-[0_0_20px_rgba(74,222,128,0.4)]">
                         Start Growing <span className="ml-1">→</span>
                     </button>
                 </div>
@@ -82,14 +82,14 @@ export default function Navbar() {
                                 <Link
                                     key={link.name}
                                     href={link.href}
-                                    className="block px-3 py-2 rounded-xl text-base font-medium text-white/70 hover:text-vertex-green hover:bg-white/5 transition-colors"
+                                    className="block px-3 py-2 rounded-xl text-base font-medium text-white/70 hover:text-getearnnext-green hover:bg-white/5 transition-colors"
                                     onClick={() => setMobileMenuOpen(false)}
                                 >
                                     {link.name}
                                 </Link>
                             ))}
                             <div className="pt-4 px-3 w-full border-t border-surfaceBorder">
-                                <button className="w-full bg-white text-background px-6 py-3 rounded-full font-semibold hover:bg-vertex-green hover:shadow-[0_0_20px_rgba(74,222,128,0.4)] transition-all">
+                                <button className="w-full bg-white text-background px-6 py-3 rounded-full font-semibold hover:bg-getearnnext-green hover:shadow-[0_0_20px_rgba(74,222,128,0.4)] transition-all">
                                     Start Growing →
                                 </button>
                             </div>

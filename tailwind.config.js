@@ -11,7 +11,7 @@ module.exports = {
         background: '#000103',
         surface: 'rgba(255, 255, 255, 0.03)',
         surfaceBorder: 'rgba(255, 255, 255, 0.08)',
-        vertex: {
+        getearnnext: {
           green: '#4ADE80',
           darkBlue: '#0A192F',
         },
