@@ -34,7 +34,7 @@ export default function Hero() {
                 ))}
             </div>
 
-            {/* Subtle Background Glows (Vertex Green) */}
+            {/* Subtle Background Glows (GetEarnNext Green) */}
             <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-getearnnext-green/10 blur-[150px] rounded-full pointer-events-none" />
             <div className="absolute bottom-1/3 right-1/4 translate-x-1/2 translate-y-1/2 w-[600px] h-[600px] bg-[#34D399]/10 blur-[150px] rounded-full pointer-events-none" />
 
